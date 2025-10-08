@@ -1,0 +1,55 @@
+/*HEADER-STYLING*/
+
+nav li:hover {
+  background-color: rgba(181, 127, 57, 0.925);
+}
+
+footer nav li:hover {
+  background-color: rgba(89, 194, 217, 0.925);
+}
+
+/* BODY STYLING */
+
+/*knap-link-CAT - ALL TOURS SIDE, KNAP 1 UD AF 3*/
+.grid_alltours a {
+  display: inline-block;
+  background-color: rgba(208, 185, 130, 0.925);
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px rgb(48, 50, 56);
+}
+
+.grid_noerrebro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  list-style: inside;
+}
+
+/* .grid_cta {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding: 1rem;
+} */
+
+/*BILLEDER FORSIDE STYLING MED HOVER*/
+/*
+img:hover {
+  background-color: rgba(181, 127, 57, 0.925);
+}
+*/
+
+/*...................NØRREBRO TRENDY TOUR...................*/
+
+.grid_punktopstilling {
+  display: grid;
+  list-style: inside;
+  background-color: salmon;
+}
+
+.boks_beskrivelse {
+  display: grid;
+  list-style: inside;
+  background-color: rgb(230, 172, 14);
+}

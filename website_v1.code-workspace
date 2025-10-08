@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../02_web/01_website/website_v1"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "emnesite_kode_4ugers_opgave"
+  }
+}

@@ -1,4 +1,4 @@
-/*************** Reset *********************/
+/****************** Reset *********************/
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +8,130 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/*...................HEADER - LOGO...................*/
+.logo img {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+/*...................HEADER - MENU, NAV...................*/
+
+header {
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(196, 160, 113, 0.925);
+}
+header {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav header {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap; /*Aligner mine menupunkter i lige linje*/
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: rgba(12, 10, 74, 0.925);
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.logo header {
+  display: flex;
+  justify-content: left;
+  /*   margin-left: 5rem; */
+}
+
+/*...................BODY-REGLER GENERAL....................*/
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #b57f39;
+  text-shadow: black 1px 1px 2px; /*SKAL ÆNDRES*/
+  padding: 1rem;
+  margin-top: auto;
+  font-family: "Irish Grover", "story script", "roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h2 {
+  color: #014f86;
+  text-shadow: #b57f39 1px 1px 1px;
+}
+
+body {
+  background: linear-gradient(#89c2d9, #012a4a);
+}
+
+/*...................FOOTER...................*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  position: sticky;
+  list-style: none;
+  bottom: 0;
+  justify-content: right;
+  padding: 0px;
+  background-color: rgba(44, 125, 160, 0.925);
+}
+
+footer a {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  color: rgba(12, 10, 74, 0.925);
+}
+
+.menufooter {
+  display: flex;
+  align-items: space-between;
+  align-items: right;
+  gap: 3em;
+  margin-top: 1em;
+  padding: 1em;
+  list-style: none;
+}
+
+.some {
+  display: flex;
+  width: 150px;
+
+  height: auto;
+  padding: 10px;
+  margin-right: 20px;
+  align-items: right;
 }
