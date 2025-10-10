@@ -80,7 +80,7 @@ h1 {
   color: #b57f39;
   text-shadow: black 1px 1px 2px; /*SKAL ÆNDRES*/
   padding: 1rem;
-  margin-top: auto;
+  margin: 1rem;
   font-family: "Irish Grover", "story script", "roboto", system-ui;
   font-weight: 500;
   font-style: normal;
@@ -91,8 +91,21 @@ h2 {
   text-shadow: #b57f39 1px 1px 1px;
 }
 
+h4 {
+  color: #014f86;
+  text-shadow: #b57f39 1px 1px 1px;
+}
+
 body {
   background: linear-gradient(#89c2d9, #012a4a);
+}
+
+* body {
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 50%;
 }
 
 /*...................FOOTER...................*/
@@ -100,7 +113,6 @@ body {
 footer {
   display: flex;
   flex-direction: row;
-
   position: sticky;
   list-style: none;
   bottom: 0;
@@ -114,6 +126,7 @@ footer a {
   font-optical-sizing: auto;
   font-weight: 1000;
   color: rgba(12, 10, 74, 0.925);
+  text-decoration: none;
 }
 
 .menufooter {
