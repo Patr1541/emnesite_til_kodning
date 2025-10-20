@@ -25,13 +25,10 @@ Tub)
 
 /*...................MOBILSITE...................*/
 
-@media (width<=500px) {
-  .forside {
-    grid-template-columns: 1fr;
-  }
-
-  .grid_noerrebro,
+/* @media (width<=500px) {
+  .forside .grid_noerrebro,
   .grid_alltours {
     grid-template-columns: 1fr;
   }
-}
+
+/*  */

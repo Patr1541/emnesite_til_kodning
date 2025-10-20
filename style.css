@@ -43,14 +43,14 @@ footer nav li:hover {
   list-style: inside;
   background-color: rgb(230, 172, 14);
   border-radius: 1rem;
-  width: 500px;
+  width: 650px;
   height: auto;
   padding: 10px;
   margin-top: 10px;
 }
 
 .n_billede {
-  display: grid;
+  /*   display: grid; */
   height: auto;
   width: 500px;
   /*  position: sticky; */
@@ -203,6 +203,7 @@ figure figcaption {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 1rem;
+  /*  justify-items: center; */
 }
 
 .grid_alltours img {
@@ -281,3 +282,12 @@ figure figcaption {
 /* * main {
   margin: 0 auto;
 } */
+
+/*...................MOBILSITE...................*/
+
+@media (width<=500px) {
+  .forside .grid_noerrebro,
+  .grid_alltours {
+    grid-template-columns: 1fr;
+  }
+}
