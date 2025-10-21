@@ -10,6 +10,9 @@ img {
   display: block;
 }
 
+/* Tilføj brødkrummesti hvis tid:
+https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+
 /*...................HEADER - LOGO...................*/
 .logo img {
   flex: 0 0 auto;
@@ -86,14 +89,15 @@ h1 {
   font-style: normal;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   color: #014f86;
   text-shadow: #b57f39 1px 1px 1px;
 }
 
 h4 {
-  color: #014f86;
-  text-shadow: #b57f39 1px 1px 1px;
+  margin-top: 1rem;
 }
 
 body {
@@ -106,6 +110,12 @@ body {
 
 a:hover {
   opacity: 50%;
+}
+
+.boks_beskrivelse {
+  word-spacing: 5px;
+  font-weight: 500;
+  line-height: 130%;
 }
 
 /*...................FOOTER...................*/
