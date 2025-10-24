@@ -8,9 +8,7 @@ footer nav li:hover {
   background-color: rgba(89, 194, 217, 0.925);
 }
 
-/* BODY STYLING */
-
-/*...................NØRREBRO TRENDY TOUR...................*/
+/*...................NØRREBRO, CPH OG FOOD TOUR SITES...................*/
 
 .grid_tourinfo {
   display: grid;
@@ -45,7 +43,8 @@ footer nav li:hover {
   display: grid;
   list-style: inside;
   /* background-color: rgb(230, 172, 14); */
-  background-color: rgb(229, 170, 62);
+  /* background-color: rgb(229, 170, 62); */
+  background-color: rgba(246, 186, 107);
   border-radius: 1rem;
   width: 650px;
   height: auto;
@@ -62,12 +61,17 @@ footer nav li:hover {
 
 .button_2 {
   display: inline-block;
-  background-color: rgba(86, 223, 187, 0.925);
+  /* background-color: rgba(86, 223, 187, 0.925); */
+  /*   background-color: rgb(229, 170, 62); */
+  /*   background-color: hwb(6 45% 2%); */
+  background-color: rgba(246, 186, 107);
   text-decoration: none;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 5px 5px 5px rgb(48, 50, 56);
   margin-top: 25px;
+  font-weight: bolder;
+  color: red;
 }
 
 /* .knap {
@@ -80,16 +84,15 @@ footer nav li:hover {
 } */
 
 .grid_reviews img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 .grid_reviews {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  /*  margin-top: 1rem;
-  margin-bottom: 1rem; */
+  gap: 10px;
+  margin-left: 2rem;
 }
 
 /*...................FORSIDE...................*/
@@ -127,9 +130,9 @@ footer nav li:hover {
   margin: 1rem;
 }
 
-/*Styling af de to knapper på forside*/
+/*Styling af de to knapper på forside
 .knap_all a {
-  /*   display: inline-block; */
+  /*   display: inline-block; 
   background-color: rgb(89, 194, 255);
   text-decoration: none;
   padding: 1rem;
@@ -137,7 +140,7 @@ footer nav li:hover {
   box-shadow: 5px 5px 5px rgb(48, 50, 56);
   color: #012a4a;
   font-weight: bolder;
-}
+}*/
 
 .knap_book {
   text-align: end;
@@ -281,13 +284,26 @@ figure figcaption {
   border-radius: 1rem;
 }
 
-/* * body {
-  margin: 1rem;
-} */
+/*...................BOOKINGSITE...................*/
 
-/* * main {
-  margin: 0 auto;
-} */
+.booking_form {
+  display: inline-block;
+  border-radius: auto 0;
+  height: auto;
+  width: 500px;
+}
+
+/*...................CONGRATULATIONS...................*/
+
+.congratulations_boks {
+  display: block;
+  margin: auto 0;
+}
+
+.congratulations {
+  height: auto;
+  width: 500px;
+}
 
 /*...................MOBILSITE...................*/
 
